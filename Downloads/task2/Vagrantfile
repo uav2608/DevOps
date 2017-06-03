@@ -1,0 +1,16 @@
+Vagrant.configure("2") do |config|
+	config.vm.provider :libvirt do |libvirt|
+	config.vm.sync_folder ".","/vagrant",type:"nfs"
+	libvirt.driver = "kvm"
+	libvirt.host = 'localhost'
+	libvirt.id_ssh_key_file = "/home/host-user/.ssh/private_key"
+	libvirt.uri = 'qemu:///system'
+	end
+config.vm.define "guest2box" do |guest2box|
+	guest2box.vm.box = "guest2box"       
+	guest2box.vm.provider :libvirt do |guest2box|
+	guest2box.memory = 1024
+	guest2box.cpus = 1
+	end
+	end
+end 
