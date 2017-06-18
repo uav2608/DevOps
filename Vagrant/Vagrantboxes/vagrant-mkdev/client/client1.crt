@@ -1,0 +1,95 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=CH, ST=ZH, L=Zurich, O=private, OU=MyOrganizationalUnit, CN=private CA/name=EasyRSA/emailAddress=me@workspace.mkdev
+        Validity
+            Not Before: Jun 11 18:45:04 2017 GMT
+            Not After : Jun  9 18:45:04 2027 GMT
+        Subject: C=CH, ST=ZH, L=Zurich, O=private, OU=MyOrganizationalUnit, CN=client1/name=EasyRSA/emailAddress=me@workspace.mkdev
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c2:7e:17:02:8a:a3:98:40:d1:07:fe:d7:00:7d:
+                    51:3a:c8:d7:6c:ef:0c:92:04:6e:70:2e:14:82:eb:
+                    83:18:ce:7b:9f:85:4b:46:9f:6f:f2:b4:44:37:75:
+                    b9:02:4a:14:48:39:77:f4:6b:89:10:39:05:ba:32:
+                    73:e5:aa:27:c4:99:51:6a:34:e5:13:10:9f:d4:61:
+                    e2:d7:fb:d9:7a:ea:3d:ee:aa:1b:dd:58:a4:a3:a0:
+                    7c:a1:3a:2a:50:8f:45:90:b2:8e:f2:58:db:c1:51:
+                    80:45:e9:2f:fe:c0:ac:c6:fd:02:9d:d7:89:9c:cb:
+                    76:22:fa:97:6b:e4:5f:1b:c4:ea:47:1d:0c:87:fc:
+                    8d:08:3d:80:06:76:3d:28:86:6d:9e:e0:13:c6:01:
+                    d0:64:0a:a5:30:68:50:35:18:43:7d:f2:4d:9b:5e:
+                    36:88:9d:e6:79:fb:b2:8c:48:6c:24:81:c8:e6:84:
+                    ab:90:5b:56:d9:8c:60:6c:dd:4a:6c:22:cc:d7:b1:
+                    6d:08:29:a9:9b:c0:7c:3f:2b:26:14:16:04:01:9f:
+                    6c:81:c9:4f:82:58:35:a7:07:07:6c:29:2a:ed:0c:
+                    59:16:11:51:a8:67:5a:03:8c:fb:af:1a:aa:a1:64:
+                    7c:fe:f9:69:a2:13:eb:37:b7:04:a3:c6:2e:f4:2b:
+                    4a:ed
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                0E:AB:A3:0B:E2:62:9A:B9:4F:C9:51:6A:50:D3:A1:11:AC:6C:C3:A2
+            X509v3 Authority Key Identifier: 
+                keyid:F9:D6:8B:0A:35:BC:36:13:21:23:C2:E8:5F:23:51:A7:0B:EC:E9:CA
+                DirName:/C=CH/ST=ZH/L=Zurich/O=private/OU=MyOrganizationalUnit/CN=private CA/name=EasyRSA/emailAddress=me@workspace.mkdev
+                serial:86:32:DE:07:09:77:59:95
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha256WithRSAEncryption
+         4a:c7:f1:a6:15:c4:a8:f4:67:8f:11:12:89:6d:15:ea:20:98:
+         a5:3d:e8:26:22:7b:77:f3:7d:08:1d:6d:3b:63:3f:d5:f5:b5:
+         d6:ab:7b:02:0c:98:a2:1e:b0:19:aa:88:62:96:07:59:26:5d:
+         3e:e3:cb:00:82:ba:ac:0e:49:ce:26:3b:c3:63:7f:a5:69:04:
+         e8:1e:12:0d:8b:e4:a9:76:b1:1e:35:d7:ab:e3:dd:c7:d7:0f:
+         95:61:26:1e:ad:52:b1:60:33:39:9b:34:e3:2a:a7:b0:3f:51:
+         f4:4f:cf:fd:69:d4:d6:32:23:94:2e:25:0b:7a:4f:4c:76:ef:
+         81:18:b0:ed:c8:31:a9:f8:df:5f:ba:fa:42:c4:1e:1b:ef:62:
+         f8:b2:eb:cf:0a:d6:2e:dd:a3:e9:c9:5d:1d:9f:dd:bd:fa:de:
+         f8:25:84:b1:76:5e:70:d3:d5:e6:06:d3:1e:7a:cc:54:9d:c0:
+         44:a0:cb:89:b9:5d:68:e5:a2:d9:b6:6e:dd:05:7c:e6:6f:14:
+         a9:f7:24:91:bb:92:4a:e5:cd:33:e2:70:3f:ea:62:94:af:c5:
+         b0:5e:86:31:b7:a1:c2:6e:e2:ed:c0:ae:7a:6d:55:70:06:06:
+         2c:a7:94:bd:93:4f:88:c3:8e:3d:c5:c8:2a:db:ba:c5:fd:20:
+         46:cf:42:f4
+-----BEGIN CERTIFICATE-----
+MIIFJTCCBA2gAwIBAgIBAjANBgkqhkiG9w0BAQsFADCBpjELMAkGA1UEBhMCQ0gx
+CzAJBgNVBAgTAlpIMQ8wDQYDVQQHEwZadXJpY2gxEDAOBgNVBAoTB3ByaXZhdGUx
+HTAbBgNVBAsTFE15T3JnYW5pemF0aW9uYWxVbml0MRMwEQYDVQQDEwpwcml2YXRl
+IENBMRAwDgYDVQQpEwdFYXN5UlNBMSEwHwYJKoZIhvcNAQkBFhJtZUB3b3Jrc3Bh
+Y2UubWtkZXYwHhcNMTcwNjExMTg0NTA0WhcNMjcwNjA5MTg0NTA0WjCBozELMAkG
+A1UEBhMCQ0gxCzAJBgNVBAgTAlpIMQ8wDQYDVQQHEwZadXJpY2gxEDAOBgNVBAoT
+B3ByaXZhdGUxHTAbBgNVBAsTFE15T3JnYW5pemF0aW9uYWxVbml0MRAwDgYDVQQD
+EwdjbGllbnQxMRAwDgYDVQQpEwdFYXN5UlNBMSEwHwYJKoZIhvcNAQkBFhJtZUB3
+b3Jrc3BhY2UubWtkZXYwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDC
+fhcCiqOYQNEH/tcAfVE6yNds7wySBG5wLhSC64MYznufhUtGn2/ytEQ3dbkCShRI
+OXf0a4kQOQW6MnPlqifEmVFqNOUTEJ/UYeLX+9l66j3uqhvdWKSjoHyhOipQj0WQ
+so7yWNvBUYBF6S/+wKzG/QKd14mcy3Yi+pdr5F8bxOpHHQyH/I0IPYAGdj0ohm2e
+4BPGAdBkCqUwaFA1GEN98k2bXjaIneZ5+7KMSGwkgcjmhKuQW1bZjGBs3UpsIszX
+sW0IKambwHw/KyYUFgQBn2yByU+CWDWnBwdsKSrtDFkWEVGoZ1oDjPuvGqqhZHz+
++WmiE+s3twSjxi70K0rtAgMBAAGjggFdMIIBWTAJBgNVHRMEAjAAMC0GCWCGSAGG
++EIBDQQgFh5FYXN5LVJTQSBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYE
+FA6rowviYpq5T8lRalDToRGsbMOiMIHbBgNVHSMEgdMwgdCAFPnWiwo1vDYTISPC
+6F8jUacL7OnKoYGspIGpMIGmMQswCQYDVQQGEwJDSDELMAkGA1UECBMCWkgxDzAN
+BgNVBAcTBlp1cmljaDEQMA4GA1UEChMHcHJpdmF0ZTEdMBsGA1UECxMUTXlPcmdh
+bml6YXRpb25hbFVuaXQxEzARBgNVBAMTCnByaXZhdGUgQ0ExEDAOBgNVBCkTB0Vh
+c3lSU0ExITAfBgkqhkiG9w0BCQEWEm1lQHdvcmtzcGFjZS5ta2RldoIJAIYy3gcJ
+d1mVMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDANBgkqhkiG9w0B
+AQsFAAOCAQEASsfxphXEqPRnjxESiW0V6iCYpT3oJiJ7d/N9CB1tO2M/1fW11qt7
+AgyYoh6wGaqIYpYHWSZdPuPLAIK6rA5JziY7w2N/pWkE6B4SDYvkqXaxHjXXq+Pd
+x9cPlWEmHq1SsWAzOZs04yqnsD9R9E/P/WnU1jIjlC4lC3pPTHbvgRiw7cgxqfjf
+X7r6QsQeG+9i+LLrzwrWLt2j6cldHZ/dvfre+CWEsXZecNPV5gbTHnrMVJ3ARKDL
+ibldaOWi2bZu3QV85m8UqfckkbuSSuXNM+JwP+pilK/FsF6GMbehwm7i7cCuem1V
+cAYGLKeUvZNPiMOOPcXIKtu6xf0gRs9C9A==
+-----END CERTIFICATE-----
